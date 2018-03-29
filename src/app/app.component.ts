@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ModalServiceService } from './modal-service.service';
 
 @Component({
   selector: 'app-root',

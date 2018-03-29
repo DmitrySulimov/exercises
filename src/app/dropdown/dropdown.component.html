@@ -1,0 +1,8 @@
+<div class="center-on-page">
+  <div class="select">
+    <select name="slct" #sel id="slct" (change)="useModal(sel.value)">
+      <option selected disabled>Choose an option</option>
+      <option class="option" *ngFor='let option of options' [value]='option'>{{option}}</option>
+    </select>
+  </div>
+</div>

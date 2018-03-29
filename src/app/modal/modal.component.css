@@ -1,0 +1,10 @@
+.modal{
+	width: 200px;
+	height: 140px;
+	position: fixed;
+	top: 10px;
+	right: 20px;
+	background-color: rgb(240, 240, 245);
+	border-radius: 20px;
+	opacity: 80%
+}
